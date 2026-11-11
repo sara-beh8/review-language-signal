@@ -1,0 +1,7 @@
+tier,company,domain,reviews,replies,classified_replies,mismatches,mismatch_rate,customer_languages,reply_languages,unserved_languages,evidence
+qualified,Nordlicht Outdoor,nordlicht-outdoor.example,14,12,12,9,75%,de:5 en:3 nl:2 fr:2,en:12,de:5 nl:2 fr:2,"R0001: customer wrote in de, company replied in en | R0004: customer wrote in nl, company replied in en"
+qualified,Maison Verte Cosmetics,maison-verte.example,11,10,10,4,40%,fr:4 es:3 en:3,fr:8 en:2,es:3 en:1,"R0018: customer wrote in es, company replied in fr | R0020: customer wrote in es, company replied in fr"
+watch,Bergström Living,bergstrom-living.example,12,12,12,2,17%,sv:5 de:4 en:3,sv:7 en:3 de:2,de:2,"R0029: customer wrote in de, company replied in sv | R0037: customer wrote in de, company replied in sv"
+deprioritize,Costa Azul Travel,costa-azul-travel.example,13,11,11,0,0%,pt:5 en:3 es:3,pt:5 en:3 es:3,,
+deprioritize,Lumen Software,lumen-software.example,11,8,8,0,0%,en:8,en:8,,
+insufficient-data,Helix Mobile,helix-mobile.example,7,3,3,2,67%,fr:2 en:1,en:3,fr:2,"R0066: customer wrote in fr, company replied in en | R0067: customer wrote in fr, company replied in en"
